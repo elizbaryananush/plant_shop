@@ -10,32 +10,32 @@ let collectionsDataset = [
     {
         image:image2,
         name:"For beginners",
-        id:2
+        id:1
     },
     {
         image:image3,
         name:"Decorative plants",
-        id:3
+        id:2
     },
     {
         image:image4,
         name:"Outdoor plants",
-        id:4
+        id:3
     },
     {
         image:image5,
         name:"Indoor plants",
-        id:5
+        id:4
     },
     {
         image:image6,
         name:"Flower plants",
-        id:6
+        id:5
     },
     {
         image:image1,
         name:"Pet-friendly plants",
-        id:1
+        id:6
     },
 ]
 

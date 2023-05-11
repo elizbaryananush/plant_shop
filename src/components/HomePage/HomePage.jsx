@@ -10,7 +10,6 @@ import NavBar from '../NavBar/NavBar'
 function HomePage() {
     return (
         <div>
-            <NavBar />
             <Home />
             <List />
             <Collections />

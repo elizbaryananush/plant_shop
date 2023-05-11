@@ -1,7 +1,8 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react'
 import bestSellerDataset from '../../datasets/bestSellerDataset'
 import careToolsDataset from '../../datasets/careToolsDataset'
 import accsessoriesDataset from '../../datasets/accsessoriesDataset'
+import Product from '../Product/Product'
 
 function Tabs() {
     const [toggle, setToggle] = useState(1)
@@ -30,33 +31,18 @@ function Tabs() {
             <div className="rightSide">
                 <div className={toggle === 1 ? 'page active-page' : 'page'}>
                     {bestSellerDataset.map((elements, index) => (
-                        <div>
-                            <img src={bestSellerDataset[index].image} />
-                            <h4>{bestSellerDataset[index].name}</h4>
-                            <h5>{bestSellerDataset[index].price}</h5>
-                            <button className='btn'> buy </button>
-                        </div>
+                        <Product category="best" img={bestSellerDataset[index].image} name={bestSellerDataset[index].name} price={bestSellerDataset[index].price} id={bestSellerDataset[index].id} />
                     ))}
                 </div>
 
                 <div className={toggle === 2 ? 'page active-page' : 'page'}>
                     {careToolsDataset.map((elements, index) => (
-                        <div>
-                            <img src={careToolsDataset[index].image} />
-                            <h4>{careToolsDataset[index].name}</h4>
-                            <h5>{careToolsDataset[index].price}</h5>
-                            <button className='btn'> buy </button>
-                        </div>
+                        <Product category="care" img={careToolsDataset[index].image} name={careToolsDataset[index].name} price={careToolsDataset[index].price} id={bestSellerDataset[index].id} />
                     ))}
                 </div>
                 <div className={toggle === 3 ? 'page active-page' : 'page'}>
                     {accsessoriesDataset.map((elements, index) => (
-                        <div>
-                            <img src={accsessoriesDataset[index].image} />
-                            <h4>{accsessoriesDataset[index].name}</h4>
-                            <h5>{accsessoriesDataset[index].price}</h5>
-                            <button className='btn'> buy </button>
-                        </div>
+                        <Product category="accessories" img={accsessoriesDataset[index].image} name={accsessoriesDataset[index].name} price={accsessoriesDataset[index].price} id={accsessoriesDataset[index].id} />
                     ))}
                 </div>
             </div>

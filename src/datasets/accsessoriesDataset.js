@@ -16,74 +16,74 @@ let accsessoriesDataset = [
     {
         image: image1,
         name: "Extra Large Strelitzia Plant & Basket",
-        price: "$32.00",
+        price: 32,
         id: 1
     },
     {
         image: image2,
         name: "Swiss Cheese Plant Big Leaf",
-        price: "$26.00",
+        price: 26,
         id: 2
     },
     {
         image: image3,
         name: "Bird of Paradise",
-        price: "$70.00",
+        price: 70,
         id: 3
     },
     {
         image: image4,
         name: "Foliage Bowl",
-        price: "$65.00",
+        price: 65,
         id: 4
     },
     {
         image: image5,
         name: "Swiss Cheese Plant",
-        price: "$20.00",
+        price: 20,
         id: 5
     },
     {
         image: image6,
         name: "Footstool Palm",
-        price: "$40.00",
+        price: 40,
         id: 6
     },
     {
         image: image7,
         name: "Footstool Palm",
-        price: "$40.00",
-        id: 6
+        price: 40,
+        id: 7
     },
     {
         image: image8,
         name: "Footstool Palm",
-        price: "$40.00",
-        id: 6
+        price: 40,
+        id: 8
     },
     {
         image: image9,
         name: "Footstool Palm",
-        price: "$40.00",
-        id: 6
+        price: 40,
+        id: 9
     },
     {
         image: image10,
         name: "Footstool Palm",
-        price: "$40.00",
-        id: 6
+        price: 40,
+        id: 10
     },
     {
         image: image11,
         name: "Footstool Palm",
-        price: "$40.00",
-        id: 6
+        price: 40,
+        id: 11
     },
     {
         image: image12,
         name: "Footstool Palm",
-        price: "$40.00",
-        id: 6
+        price: 40,
+        id: 12
     }
 ]
 
