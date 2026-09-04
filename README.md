@@ -1,4 +1,4 @@
-# 🪴 Plant Shop
+# Plant Shop
 
 A full-stack e-commerce web application for browsing and purchasing plants. Built using the MERN stack with Redux for state management.
 
